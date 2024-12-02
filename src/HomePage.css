@@ -1,0 +1,111 @@
+/* Algemeen */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigatiebalk */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #555;
+  color: #fff;
+}
+
+.register-btn {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+/* Hero sectie */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color:#f0ad4e;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.cta-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Diensten sectie */
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
